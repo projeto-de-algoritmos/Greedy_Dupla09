@@ -10,7 +10,7 @@
 | 18/0052845  |  Gabriela da Gama Pivetta |
 
 ## Sobre 
-Após a criação dos projetos csgo_connections e hltv Tico e Teco decidiram tirar férias com seu gato Kelvin,que por sinal é um peralta com P maior.
+Após a criação dos projetos [csgo_connections](https://github.com/projeto-de-algoritmos/grafos1_csgo_connections) e [HLTV](https://github.com/projeto-de-algoritmos/Grafos2_HLTV) Tico e Teco decidiram tirar férias com seu gato Kelvin,que por sinal é um peralta com P maior.
 A dupla dinâmica, ao sair para comemorar o carnaval brasiliense deixou o laptop de desenvolvimento
 com o MELHOR EDITOR DE TEXTO ABERTO, sim estamos falando do
 VIM.
@@ -19,7 +19,7 @@ não deu chance para esse e 'sambou' no teclado, o que
 curiosamente gerou códigos de alta qualidade que estão
 disponíveis no repositório atual.
 
-![gatao_hacker](https://c.tenor.com/ogsH7Ailje8AAAAd/cat-funny-cat.gif)
+![gatao_hacker](https://tokdehistoria.files.wordpress.com/2013/04/lyra-notebook-dormindo.png)
 
 
 ## Screenshots
