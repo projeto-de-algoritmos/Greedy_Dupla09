@@ -1,45 +1,36 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
+# Greedy Programacao Competitiva 
  
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: SegmentationFault<br>
+**Conteúdo da Disciplina**: Greedy<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0033620  |  João Henrique C. Paulino |
+| 18/0052845  |  Gabriela da Gama Pivetta |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Após a criação dos projetos csgo_connections e hltv Tico e Teco decidiram tirar férias com seu gato Kelvin,que por sinal é um peralta com P maior.
+A dupla dinâmica, ao sair para comemorar o carnaval brasiliense deixou o laptop de desenvolvimento
+com o MELHOR EDITOR DE TEXTO ABERTO, sim estamos falando do
+VIM.
+Kelvin ao perceber a posição de vulnerabilidade do laptop
+não deu chance para esse e 'sambou' no teclado, o que 
+curiosamente gerou códigos de alta qualidade que estão
+disponíveis no repositório atual.
+
+![gatao_hacker](https://c.tenor.com/ogsH7Ailje8AAAAd/cat-funny-cat.gif)
+
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![terminal](https://ak.picdn.net/shutterstock/videos/8617789/thumb/1.jpg)
+
+![terminal2](https://hacker-simulator.com/hacker-simulator.jpg)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Python3 | C++<br>
+
+Pre requisitos python3 e g++17 instalados.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
-
-
-
+Só mandar as questões para o site e id_questão do problema os dados das questões resolvidas podem ser encontrados no cabeçalho de cada arquivo.
