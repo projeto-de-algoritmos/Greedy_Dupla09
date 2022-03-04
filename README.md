@@ -23,9 +23,8 @@ disponíveis no repositório atual.
 
 
 ## Screenshots
-![terminal](https://ak.picdn.net/shutterstock/videos/8617789/thumb/1.jpg)
+![terminal](terminal.png)
 
-![terminal2](https://hacker-simulator.com/hacker-simulator.jpg)
 
 ## Instalação 
 **Linguagem**: Python3 | C++<br>
