@@ -87,7 +87,7 @@ int main() {
 
 // URI - questão 1978
 // Obs: Compilador C99
-// https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=15&page=show_problem&problem=1323
+// https://www.beecrowd.com.br/judge/pt/problems/view/1978
 //
 // A ideia desse problema é descobrir qual a quantidade mínima câmeras necessárias para cobrirem
 // ... um corredor, dados seu comprimento e largura, e também a posição e o alcance das câmeras.

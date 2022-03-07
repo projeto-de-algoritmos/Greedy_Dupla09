@@ -99,3 +99,6 @@ int main() {
 // Obs: Compilador ANSI C 5.3.0
 // Obs2: Tirar comentários para submeter o código!
 // https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=961
+//
+// Dado uma distância de 0 a M e varios segmentos de linha [beginning, end], qual a quantidade mínima de segmentos
+// ... de linha necessária para cobrir a distância.
