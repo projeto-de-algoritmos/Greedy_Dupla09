@@ -33,3 +33,4 @@ Pre requisitos python3, gcc e g++17 instalados.
 
 ## Uso 
 Só mandar as questões para o site e id_questão do problema os dados das questões resolvidas podem ser encontrados no cabeçalho de cada arquivo.
+Link video : [Apresentacao](https://drive.google.com/file/d/1Z1urs8kH5U6hDucGU5JSC6Qxvqhngu2l/view?usp=sharing)
