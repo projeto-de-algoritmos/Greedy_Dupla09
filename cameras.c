@@ -47,20 +47,21 @@ int main() {
     while (scanf("%d %d %d", &num_cameras, &length, &width),
            num_cameras > 0) {
         for (size_t i = 0; i < num_cameras; ++i) {
-            int position, radius;
-            scanf("%d %d", &position, &radius);
+            double position, radius;
+            scanf("%lf %lf", &position, &radius);
             // Calculate this circle's effective interval [L, R].
-            circles[i].distance = position - radius;
-            circles[i].radius = position + radius;
+            double range = sqrt(radius * radius - (width / 2.0) * (width / 2.0));
+            circles[i].distance = position - range;
+            circles[i].radius = position + range;
         }
     
         merge_sort(circles, 0, num_cameras-1);
 
         size_t i = 0;
-        int curL = 0, rReach = 0;
+        double curL = 0, rReach = 0;
         int total_cameras = 0; 
         while (rReach < length) {
-            int newCurL = curL;
+            double newCurL = curL;
             int farthest = -1;
             // Take the interval that covers as the biggest area.
             for (; i < num_cameras; ++i) {
@@ -85,4 +86,8 @@ int main() {
 }
 
 // URI - questão 1978
+// Obs: Compilador C99
 // https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=15&page=show_problem&problem=1323
+//
+// A ideia desse problema é descobrir qual a quantidade mínima câmeras necessárias para cobrirem
+// ... um corredor, dados seu comprimento e largura, e também a posição e o alcance das câmeras.
