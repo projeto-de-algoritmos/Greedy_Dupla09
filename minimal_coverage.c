@@ -31,7 +31,7 @@ void merge(struct Pair *v, int l, int m, int r){
 }
 
 void merge_sort(struct Pair *v, int l, int r){
-	if(l>=r)return; //criterio de parada
+	if(l>=r)return;
 	int m = (l+r)/2;
 	
 	merge_sort(v, l, m);
