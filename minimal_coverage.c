@@ -52,7 +52,6 @@ int main() {
         scanf("%d", &M);
 
         int numPairs = 0;
-        // get all relevant pairs in range [0,M]
         while (scanf("%d %d", &allPairs[numPairs].beginning, &allPairs[numPairs].end),
                 allPairs[numPairs].beginning != 0 || allPairs[numPairs].end !=0){     
             if (allPairs[numPairs].end > 0 && allPairs[numPairs].beginning < M)
@@ -61,14 +60,14 @@ int main() {
 
         merge_sort(allPairs, 0, numPairs-1);
 
-        // ensures a pair > M will never be selected
+        // garante que um par > M nunca será selecionado
         allPairs[numPairs].beginning = M + 1;
         
         int count = 0;
         int currentX = 0;
         int currentPair = 0;
         
-        // pick the best end out of all of the possible pairs
+        // escolhe o melhor 'end' entre todos os pares possíveis
         while (currentX < M && currentPair < numPairs) {
             solution[count].end = 0;
             for (; allPairs[currentPair].beginning <= currentX; ++currentPair)
@@ -83,8 +82,9 @@ int main() {
         
         if (currentX >= M) {
             printf("%d\n", count);
-            for (int i = 0; i < count; ++i)
-                printf("%d %d\n", solution[i].beginning, solution[i].end);
+            int j = 0;
+            for (; j < count; ++j)
+                printf("%d %d\n", solution[j].beginning, solution[j].end);
         }
         else
             printf("0\n");
@@ -96,4 +96,6 @@ int main() {
 
 
 // UVA - questão 10020
+// Obs: Compilador ANSI C 5.3.0
+// Obs2: Tirar comentários para submeter o código!
 // https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=12&page=show_problem&problem=961
