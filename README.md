@@ -27,9 +27,9 @@ disponíveis no repositório atual.
 
 
 ## Instalação 
-**Linguagem**: Python3 | C++<br>
+**Linguagem**: Python3 | C | C++<br>
 
-Pre requisitos python3 e g++17 instalados.
+Pre requisitos python3, gcc e g++17 instalados.
 
 ## Uso 
 Só mandar as questões para o site e id_questão do problema os dados das questões resolvidas podem ser encontrados no cabeçalho de cada arquivo.
