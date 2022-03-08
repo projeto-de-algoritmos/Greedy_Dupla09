@@ -3,7 +3,7 @@
 **Número da Lista**: SegmentationFault<br>
 **Conteúdo da Disciplina**: Greedy<br>
 
-Link video : [Apresentacao](https://drive.google.com/file/d/1Z1urs8kH5U6hDucGU5JSC6Qxvqhngu2l/view?usp=sharing)
+Link video : [Apresentacao](https://drive.google.com/file/d/1ASUK-hTUy7If3Qdix5ciI6pQPlnhl9pp/view?usp=sharing)
 
 ## Alunos
 |Matrícula | Aluno |
